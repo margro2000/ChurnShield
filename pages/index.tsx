@@ -66,7 +66,7 @@ const Home: NextPage = () => {
     <Box>
       <SEO
         title="ChurnShield"
-        description="End User CHurn Forever"
+        description="End User Churn Forever"
       />
       <Box>
         <HeroSection />
