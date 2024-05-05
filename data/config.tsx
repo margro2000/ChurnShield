@@ -9,7 +9,7 @@ const siteConfig = {
   logo: Logo,
   seo: {
     title: 'Saas UI',
-    description: 'The React component library for startups',
+    description: 'Understand User Behavior and Prevent Churn',
   } as NextSeoProps,
   termsUrl: '#',
   privacyUrl: '#',
@@ -42,7 +42,7 @@ const siteConfig = {
     copyright: (
       <>
         Built by{' '}
-        <Link href="https://twitter.com/Pagebakers">Eelco Wiersma</Link>
+        <Link href="https://twitter.com/Pagebakers">Margarita Groisman and Moritz Walawitsch</Link>
       </>
     ),
     links: [
@@ -66,25 +66,25 @@ const siteConfig = {
       {
         icon: FiCheck,
         title: 'Accessible',
-        description: 'All components strictly follow WAI-ARIA standards.',
+        description: 'We follow WAI-ARIA standards and are accessibe for blind, death, and other customers.',
       },
       {
         icon: FiCheck,
-        title: 'Themable',
+        title: 'Flexible',
         description:
-          'Fully customize all components to your brand with theme support and style props.',
+          'Perdect for any SaaS product, from startups to enterprises, and everything in between.',
       },
       {
         icon: FiCheck,
         title: 'Composable',
         description:
-          'Compose components to fit your needs and mix them together to create new ones.',
+          'Plug and play for your site',
       },
       {
         icon: FiCheck,
         title: 'Productive',
         description:
-          'Designed to reduce boilerplate and fully typed, build your product at speed.',
+          'Designed to help you gain important insights and save time on development.',
       },
     ],
   },

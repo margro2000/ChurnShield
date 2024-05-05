@@ -73,7 +73,7 @@ const Home: NextPage = () => {
 
         <HighlightsSection />
 
-        <FeaturesSection />
+        {/* <FeaturesSection /> */}
 
         <TestimonialsSection />
 
@@ -176,15 +176,15 @@ const HeroSection: React.FC = () => {
           {
             title: "Accessible",
             icon: FiSmile,
-            description: "All components strictly follow WAI-ARIA standards.",
+            description: "We follow WAI-ARIA standards and are accessibe for blind, death, and other customers.",
             iconPosition: "left",
             delay: 0.6,
           },
           {
-            title: "Themable",
+            title: "Flexible",
             icon: FiSliders,
             description:
-              "Fully customize all components to your brand with theme support and style props.",
+              "Perdect for any SaaS product, from startups to enterprises, and everything in between.",
             iconPosition: "left",
             delay: 0.8,
           },
@@ -192,7 +192,7 @@ const HeroSection: React.FC = () => {
             title: "Composable",
             icon: FiGrid,
             description:
-              "Compose components to fit your needs and mix them together to create new ones.",
+              "Plug and play for your site",
             iconPosition: "left",
             delay: 1,
           },
