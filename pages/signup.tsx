@@ -1,7 +1,7 @@
 import { NextPage } from 'next'
 import NextLink from 'next/link'
 import { Box, Center, Stack, Text } from '@chakra-ui/react'
-import { Auth, Link } from '@saas-ui/react'
+//import { Auth, Link } from '@saas-ui/react'
 import { Features } from 'components/features'
 import { BackgroundGradient } from 'components/gradients/background-gradient'
 import { Section } from 'components/section'
@@ -70,7 +70,7 @@ const Login: NextPage = () => {
           </Box>
           <Center height="100%" flex="1">
             <Box width="container.sm" pt="8" px="8">
-              <Auth
+              {/* <Auth
                 view="signup"
                 title={siteConfig.signup.title}
                 providers={providers}
@@ -86,7 +86,7 @@ const Login: NextPage = () => {
                     Privacy Policy
                   </Link>
                 </Text>
-              </Auth>
+              </Auth> */}
             </Box>
           </Center>
         </Stack>

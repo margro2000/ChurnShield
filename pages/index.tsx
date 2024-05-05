@@ -104,7 +104,7 @@ const HeroSection: React.FC = () => {
             description={
               <FallInPlace delay={0.4} fontWeight="medium">
                 Saas UI helps users <Em>navigate and understand</Em>
-                <Br /> navigate and understand your
+                <Br /> your product with ease.    
               </FallInPlace>
             }
           >
