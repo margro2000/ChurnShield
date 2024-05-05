@@ -1,6 +1,11 @@
 import * as React from "react";
 import type { NextPage } from "next";
 import Image from "next/image";
+import Chatbot from "react-chatbot-kit";
+
+import config from "./config";
+import MessageParser from "./MessageParser";
+import ActionProvider from "./ActionProvider";
 import {
   Container,
   Box,
@@ -108,6 +113,11 @@ const HeroSection: React.FC = () => {
               </FallInPlace>
             }
           >
+             {/* <Chatbot
+        config={config}
+        messageParser={MessageParser}
+        actionProvider={ActionProvider}
+      /> */}
             <FallInPlace delay={0.8}>
               {/* <HStack pt="4" pb="12" spacing="8">
                 <NextjsLogo height="28px" /> <ChakraLogo height="20px" />
@@ -165,6 +175,8 @@ const HeroSection: React.FC = () => {
           </Box>
         </Stack>
       </Container>
+
+     
 
       <Features
         id="benefits"
